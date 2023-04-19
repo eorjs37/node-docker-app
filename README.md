@@ -42,6 +42,6 @@ docker build . -t choidaegeon/node-docker-app:0.0.1
 
 docker run -p <포트포워딩포트>:<node 3000포트> -d <이미지명>
 
-```dockerfile
+```bash
 docker run -p 49160:3000 -d choidaegeon/node-docker-app:0.0.3
 ```
